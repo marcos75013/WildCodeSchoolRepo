@@ -1,0 +1,284 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}*/ 
+
+*{
+    margin: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}*/
+
+body {
+	line-height: 150%;
+  
+}
+ul {
+	list-style: none;
+}
+
+/*blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}*/
+
+table {
+	border-collapse: collapse;
+	/*border-spacing: 0;*/
+}
+
+/* Header main */
+.main-header {
+    font-family:Kalam;
+    width: 100%;
+}
+
+.main header img{
+    width: 100%;
+    height: auto;
+}
+
+/* Nav main */
+.main-nav {
+    display:flex;
+    align-items:center;
+    background-color:#262524;
+}
+
+.main-nav li:first-child {
+    margin-right:auto;
+}
+
+.main-nav a {
+    margin: 10px;
+    padding: 15px;
+    display:block;
+    text-decoration:none;
+    color: #ecb80c;
+    font-size: 21px;
+    
+}
+
+.main-nav a:hover {
+    color: #f3e308;
+}
+
+.main-nav .logo img {
+    height: 50px;
+    width:  50px;
+    align-items: flex-start;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url(../img/banniereWCS.jpg) no-repeat center;
+    background-size: cover;
+    height:720px;
+}
+.hero h1 {
+    /*margin-top: -100px;*/
+    font-family: Kalam;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-shadow: 10px 10px 20px  #262524;
+}
+.about {
+    /*margin: 0;*/
+    width: 100%;
+    background-color: lemonchiffon;
+}
+
+.about h2 {
+    font-family: Kalam;
+    font-size: 38px;
+    font-weight: 400;
+    color:  #ecb80c;
+    padding: 25px 20px 20px 20px;
+    
+}
+
+.about p {
+    line-height: 1.5;
+    padding: 0 15px 15px 15px;
+    font-family:Kalam;
+}
+
+/* Royal Family */
+.royal-family {
+    margin: 27px;
+}
+.royal-family h1 {
+    font-family: Kalam; /*why it does not work?*/
+    font-size: 36px;
+    color: #ecb80c;
+    padding-bottom: 18px;
+}
+.cards {
+    display: flex;
+    flex-wrap:wrap; /*responsive*/
+    justify-content: space-around;
+    
+}
+
+.card {
+    padding-top: 15px;
+    
+}
+
+.card img{
+    /*width: 100%;*/
+    max-width: 210px;
+    height: auto;
+    border-style: double;
+    color: #ecb80c;
+}
+
+.card-content h2 {
+    text-align: center;
+    font-family: Kalam; /*why it does not work?*/
+    font-size: 27px;
+    color:  #ecb80c;
+    margin-top: 15px;
+}
+
+/* Assets */
+.assets {
+    margin: 41px;
+}
+.assets h1 {
+    font-family: Kalam; /*why it does not work?*/
+    font-size: 36px;
+    /*font-weight: 400;*/
+    color: #ecb80c;
+    padding-bottom: 18px;
+    margin-left: 21px;
+}
+table {
+    font-family: Kalam;
+    font-size: 18px;
+    width: 96%;
+    margin: 21px auto 0;
+    text-align: center;
+}
+thead {
+    font-size: 25px;
+    
+}
+
+
+table, th, td {
+    border-collapse:collapse;
+    color: #000000;
+    border:1px solid #000000;
+    padding: 10px
+}
+
+tr:nth-of-type(2n) {
+    background-color:#f3e308;
+}
+
+ thead, th{
+    background-color: #ecb80c;
+    font-family: kalam; /*why it does not work?*/
+    
+}
+
+tbody, tr, td:nth-child(1){
+    padding: 3px;
+}
+
+/* Contact */
+.contact {
+    margin: 0;
+    background-color: lemonchiffon;
+    
+}
+
+.contact h1 {
+    font-family:Kalam; /*why it does not work?*/
+    font-size: 36px;
+    color:#ecb80c;
+    padding-left: 41px;
+    padding-top: 25px;
+    
+}
+.contact-form {
+    padding:41px;
+}
+.box {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+label {
+    font-family: Kalam; /*why it does not work?*/
+    font-size: 21px;
+    color:#000000;
+    
+}
+div input {
+    margin-top: 10px;
+}
+
+div textarea {
+    margin-top: 10px;
+}
+
+ input,textarea {
+    padding: 8px;
+    /*display: block;*/
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 100%;
+}
+
+button {
+    border: none;
+    padding: 9px 21px;
+    color: #000000;
+    background-color: #ecb80c;
+    cursor: pointer;
+    float: right;    
+}
+
+button:hover {
+    background-color: #f3e308;
+}
+
+/*.footer {
+    background-color: grey;
+    text-align: center;
+    padding-top: 12px;
+}*/

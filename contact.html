@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact the Royal Kingdom</title>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Section-->
+    <header class="main-header">
+        <nav>
+            <ul class="main-nav">
+                <li><a href="index.html" class="logo"><img src="assets/img/crowgolden.png" alt="logo crown"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="royal-family.html">Royal Family</a></li>
+                <li><a href="assets.html">Royal Assets</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Assets Section -->
+    <section class="contact">
+        <h1>Contact the Royal Kingdom</h1>
+        <form method="post" class="contact-form" id="formContact">
+            <div class="box">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required placeholder="Jean Dupont">
+            </div>
+            <div class="box">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="exemple@exemple.com">
+            </div>
+            <div class="box">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Ecrivez votre message"></textarea>
+            </div>
+            <div class="box">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+     <!-- Connect the Javascript file -->
+     <script src="assets/js/script.js"></script>
+</body>
+</html>
