@@ -140,7 +140,7 @@ table {
     margin: 27px;
 }
 .royal-family h1 {
-    font-family: Kalam; /*why it does not work?*/
+    font-family: Kalam; 
     font-size: 36px;
     color: #ecb80c;
     padding-bottom: 18px;
@@ -167,7 +167,7 @@ table {
 
 .card-content h2 {
     text-align: center;
-    font-family: Kalam; /*why it does not work?*/
+    font-family: Kalam; 
     font-size: 27px;
     color:  #ecb80c;
     margin-top: 15px;
@@ -178,7 +178,7 @@ table {
     margin: 41px;
 }
 .assets h1 {
-    font-family: Kalam; /*why it does not work?*/
+    font-family: Kalam; 
     font-size: 36px;
     /*font-weight: 400;*/
     color: #ecb80c;
@@ -211,7 +211,7 @@ tr:nth-of-type(2n) {
 
  thead, th{
     background-color: #ecb80c;
-    font-family: kalam; /*why it does not work?*/
+    font-family: kalam; 
     
 }
 
@@ -227,7 +227,7 @@ tbody, tr, td:nth-child(1){
 }
 
 .contact h1 {
-    font-family:Kalam; /*why it does not work?*/
+    font-family:Kalam;
     font-size: 36px;
     color:#ecb80c;
     padding-left: 41px;
@@ -243,7 +243,7 @@ tbody, tr, td:nth-child(1){
 }
 
 label {
-    font-family: Kalam; /*why it does not work?*/
+    font-family: Kalam; 
     font-size: 21px;
     color:#000000;
     
@@ -270,7 +270,8 @@ button {
     color: #000000;
     background-color: #ecb80c;
     cursor: pointer;
-    float: right;    
+    float: right; 
+       
 }
 
 button:hover {
