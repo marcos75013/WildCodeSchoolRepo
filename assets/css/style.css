@@ -14,7 +14,7 @@ ul {
 }
 
 .main-header {
-    font-family:Kalam;
+    font-family:"Kalam";
     width: 100%;
 }
 
@@ -63,7 +63,7 @@ ul {
 }
 
 .hero h1 {
-    font-family: Kalam;
+    font-family: "Kalam";
     font-size: 50px;
     line-height: 55px;
     color: #FFFFFF;
@@ -76,7 +76,7 @@ ul {
 }
 
 .about h2 {
-    font-family: Kalam;
+    font-family: "Kalam";
     font-size: 38px;
     font-weight: 400;
     color:  #ecb80c;
@@ -86,7 +86,7 @@ ul {
 .about p {
     line-height: 1.5;
     padding: 0 15px 15px 15px;
-    font-family:Kalam;
+    font-family:"Kalam";
 }
 
 /*royal faamily*/
@@ -95,7 +95,7 @@ ul {
     margin: 27px;
 }
 .royal-family h1 {
-    font-family: Kalam; 
+    font-family: "Kalam"; 
     font-size: 36px;
     color: #ecb80c;
     padding-bottom: 18px;
@@ -119,7 +119,7 @@ ul {
 
 .card-content h2 {
     text-align: center;
-    font-family: Kalam; 
+    font-family: "Kalam"; 
     font-size: 27px;
     color:  #ecb80c;
     margin-top: 15px;
@@ -132,7 +132,7 @@ ul {
 }
 
 .assets h1 {
-    font-family: Kalam; 
+    font-family: "Kalam"; 
     font-size: 36px;
     color: #ecb80c;
     padding-bottom: 18px;
@@ -141,7 +141,7 @@ ul {
 
 table {
     border-collapse: collapse;
-    font-family: Kalam;
+    font-family: "Kalam";
     font-size: 18px;
     width: 100%;
     margin: 21px auto 0;
@@ -165,7 +165,7 @@ tr:nth-of-type(2n) {
 
  thead, th{
     background-color: #ecb80c;
-    font-family: kalam; 
+    font-family: "kalam"; 
     
 }
 
@@ -181,7 +181,7 @@ tbody, tr, td:nth-child(1){
 }
 
 .contact h1 {
-    font-family:Kalam;
+    font-family:"Kalam";
     font-size: 36px;
     color:#ecb80c;
     padding-left: 41px;
@@ -198,7 +198,7 @@ tbody, tr, td:nth-child(1){
 }
 
 label {
-    font-family: Kalam; 
+    font-family: "Kalam"; 
     font-size: 21px;
     color:#000000;
     
