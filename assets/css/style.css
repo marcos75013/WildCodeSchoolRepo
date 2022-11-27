@@ -1,9 +1,6 @@
-
-
 *{
     margin: 0;
 }
-
 
 body {
 	line-height: 150%;
@@ -13,23 +10,11 @@ ul {
 	list-style: none;
 }
 
-/*blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}*/
 
-table {
-	border-collapse: collapse;
-	/*border-spacing: 0;*/
-}
 
 /* Header main */
 .main-header {
-    font-family:Kalam;
+    font-family:"Kalam";
     width: 100%;
 }
 
@@ -55,8 +40,7 @@ table {
     display:block;
     text-decoration:none;
     color: #ecb80c;
-    font-size: 21px;
-    
+    font-size: 21px;   
 }
 
 .main-nav a:hover {
@@ -78,15 +62,15 @@ table {
     background-size: cover;
     height:720px;
 }
+
 .hero h1 {
-    /*margin-top: -100px;*/
     font-family: Kalam;
     font-size: 50px;
     color: #FFFFFF;
     text-shadow: 10px 10px 20px  #262524;
 }
+
 .about {
-    /*margin: 0;*/
     width: 100%;
     background-color: lemonchiffon;
 }
@@ -96,8 +80,7 @@ table {
     font-size: 38px;
     font-weight: 400;
     color:  #ecb80c;
-    padding: 25px 20px 20px 20px;
-    
+    padding: 25px 20px 20px 20px;    
 }
 
 .about p {
@@ -118,18 +101,15 @@ table {
 }
 .cards {
     display: flex;
-    flex-wrap:wrap; /*responsive*/
-    justify-content: space-around;
-    
+    flex-wrap:wrap; 
+    justify-content: space-around;  
 }
 
 .card {
-    padding-top: 15px;
-    
+    padding-top: 15px;  
 }
 
 .card img{
-    /*width: 100%;*/
     max-width: 210px;
     height: auto;
     border-style: double;
@@ -148,26 +128,27 @@ table {
 .assets {
     margin: 41px;
 }
+
 .assets h1 {
     font-family: Kalam; 
     font-size: 36px;
-    /*font-weight: 400;*/
     color: #ecb80c;
     padding-bottom: 18px;
     margin-left: 21px;
 }
+
 table {
+    border-collapse: collapse;
     font-family: Kalam;
     font-size: 18px;
-    width: 96%;
+    width: 100%;
     margin: 21px auto 0;
     text-align: center;
 }
-thead {
-    font-size: 25px;
-    
-}
 
+thead {
+    font-size: 25px; 
+}
 
 table, th, td {
     border-collapse:collapse;
@@ -193,8 +174,7 @@ tbody, tr, td:nth-child(1){
 /* Contact */
 .contact {
     margin: 0;
-    background-color: lemonchiffon;
-    
+    background-color: lemonchiffon;  
 }
 
 .contact h1 {
@@ -208,6 +188,7 @@ tbody, tr, td:nth-child(1){
 .contact-form {
     padding:41px;
 }
+
 .box {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -229,7 +210,6 @@ div textarea {
 
  input,textarea {
     padding: 8px;
-    /*display: block;*/
     border: none;
     border-bottom: 1px solid #000000;
     width: 100%;
@@ -249,8 +229,3 @@ button:hover {
     background-color: #f3e308;
 }
 
-/*.footer {
-    background-color: grey;
-    text-align: center;
-    padding-top: 12px;
-}*/
