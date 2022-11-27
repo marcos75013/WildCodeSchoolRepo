@@ -6,13 +6,11 @@ body {
 	line-height: 150%;
   
 }
+
 ul {
 	list-style: none;
 }
 
-
-
-/* Header main */
 .main-header {
     font-family:Kalam;
     width: 100%;
@@ -23,7 +21,6 @@ ul {
     height: auto;
 }
 
-/* Nav main */
 .main-nav {
     display:flex;
     align-items:center;
@@ -89,7 +86,6 @@ ul {
     font-family:Kalam;
 }
 
-/* Royal Family */
 .royal-family {
     margin: 27px;
 }
@@ -124,7 +120,6 @@ ul {
     margin-top: 15px;
 }
 
-/* Assets */
 .assets {
     margin: 41px;
 }
@@ -171,7 +166,6 @@ tbody, tr, td:nth-child(1){
     padding: 3px;
 }
 
-/* Contact */
 .contact {
     margin: 0;
     background-color: lemonchiffon;  
@@ -221,8 +215,7 @@ button {
     color: #000000;
     background-color: #ecb80c;
     cursor: pointer;
-    float: right; 
-       
+    float: right;     
 }
 
 button:hover {
