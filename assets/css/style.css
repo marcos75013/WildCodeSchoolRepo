@@ -183,6 +183,7 @@ tbody, tr, td:nth-child(1){
 .contact h1 {
     font-family:"Kalam";
     font-size: 36px;
+    line-height: 45px;
     color:#ecb80c;
     padding-left: 41px;
     padding-top: 25px;
