@@ -7,6 +7,8 @@ body {
   
 }
 
+/*mai header nav*/
+
 ul {
 	list-style: none;
 }
@@ -86,6 +88,8 @@ ul {
     font-family:Kalam;
 }
 
+/*royal faamily*/
+
 .royal-family {
     margin: 27px;
 }
@@ -119,6 +123,8 @@ ul {
     color:  #ecb80c;
     margin-top: 15px;
 }
+
+/* assets*/
 
 .assets {
     margin: 41px;
@@ -165,6 +171,8 @@ tr:nth-of-type(2n) {
 tbody, tr, td:nth-child(1){
     padding: 3px;
 }
+
+/* contact*/
 
 .contact {
     margin: 0;
